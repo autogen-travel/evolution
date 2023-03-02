@@ -177,7 +177,7 @@ require_once(MODX_MANAGER_PATH . 'includes/active_user_locks.inc.php');
 						</div>
 					</div>
 				</div>
-				<?php if($modx->hasPermission('save_role')): ?>
+				<?php if($modx->hasPermission('save_template')): ?>
 					<div class="form-group">
 						<label>
 							<input name="selectable" type="checkbox"<?= ($selectable == 1 ? ' checked="checked"' : '') ?> /> <?= $_lang['template_selectable'] ?></label>
